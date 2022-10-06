@@ -1,9 +1,14 @@
+package BloodBank;
 
 public class Donor {
 	private String donarId;
 	private String donarName;
 	private String phone;
 	private String bloodGroup;
+
+	public Donor() {
+		
+	}
 
 	public Donor(String donarId, String donarName, String phone, String bloodGroup) {
 		this.donarId = donarId;
